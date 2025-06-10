@@ -1,3 +1,5 @@
+![alt text](image.png)
+
 # react-vite-basic
 
 Minimal starter using React 18.2 + Vite
