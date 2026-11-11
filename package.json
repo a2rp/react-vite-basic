@@ -1,7 +1,8 @@
 {
-    "name": "frontend",
+    "name": "react-vite-basic",
     "private": true,
     "version": "0.0.0",
+    "description": "A responsive React and Vite starter workspace for frontend experiments",
     "type": "module",
     "scripts": {
         "dev": "vite",

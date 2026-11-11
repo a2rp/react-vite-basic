@@ -80,7 +80,7 @@ function App() {
             <header className="site-header">
                 <div className="header-inner">
                     <a className="brand" href="#top" onClick={closeMenu}>
-                        <img src="/logo.png" alt="" />
+                        <img src={import.meta.env.BASE_URL + "logo.png"} alt="" />
                         <span>
                             <strong>React Vite Basic</strong>
                             <small>Simple starter workspace</small>
@@ -132,7 +132,7 @@ function App() {
                     </div>
 
                     <div className="hero-visual">
-                        <img src="/image.png" alt="React Vite starter preview" />
+                        <img src={import.meta.env.BASE_URL + "image.png"} alt="React Vite starter preview" />
                         <div className="visual-note">
                             <FiLayers />
                             <span>Ready for your next idea</span>
